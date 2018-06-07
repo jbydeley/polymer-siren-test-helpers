@@ -5,6 +5,9 @@
   },
   "version": "1.0.0",
   "main": "index.js",
+  "files": [
+    "dist/index.js"
+  ],
   "license": "Apache-2.0",
   "scripts": {
     "start": "rollup -c rollup.config.js",
