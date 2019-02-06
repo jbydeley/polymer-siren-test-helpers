@@ -1,11 +1,11 @@
-import parser from 'siren-parser';
+import SirenParse from 'siren-parser';
 
-export async function load(href, element) {
+export default async function SirenFixture(href, element) {
     const entities = await fetch( href )
         .then( res => res.json() )
     
     element.href = href;
-    element.entity = parser(entities);
+    element.entity = SirenParse(entities);
 
     return element;
 }
