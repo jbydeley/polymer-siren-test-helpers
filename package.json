@@ -3,13 +3,13 @@
   "author": {
     "name": "Jared Bydeley"
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "siren-parser": "^8.0.0"
+    "siren-parser": "^8.4.0"
   }
 }
